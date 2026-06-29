@@ -32,7 +32,7 @@ export default function Navbar({ showLogo = false }: { showLogo?: boolean }) {
     <>
 {showLogo && (
   <Link href="/" aria-label="Home" className="logo-img">
-    <img src="/mylogo.png" alt="JRE" style={{ height: "44px", width: "auto" }} />
+    <img src="/mylogo.png" alt="JRE" style={{ height: "100px", width: "auto" }} />
   </Link>
 )}
 
