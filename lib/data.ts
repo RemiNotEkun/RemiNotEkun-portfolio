@@ -20,7 +20,16 @@ export const projects = [
     name: "Sunflower Power",
     description:
       "Website for a solar energy company in Nigeria. Designed to convert — clear messaging, strong visuals, and a seamless contact flow.",
-    url: "#",
+    url: "sunflowerpower.io",
+    tags: ["Web Development", "UI Design"],
+  },
+
+   {
+    id: "cestlap",
+    name: "cestlap",
+    description:
+      "Website for climate & environmental sustainability. Designed to connect Global climate expertise for a sustainable future, strong visuals, and a seamless contact flow.",
+    url: "cestlap.com",
     tags: ["Web Development", "UI Design"],
   },
 ];
@@ -57,7 +66,7 @@ export const social = [
   },
   {
     name: "WhatsApp",
-    url: "https://wa.me/2349055020483",
+    url: "https://wa.me/2348055934852",
   },
 ];
 

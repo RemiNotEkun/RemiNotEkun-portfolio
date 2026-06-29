@@ -30,11 +30,13 @@ export default function Navbar({ showLogo = false }: { showLogo?: boolean }) {
 
   return (
     <>
-      {showLogo && (
-        <Link href="/" className="logo" aria-label="Home">JE</Link>
-      )}
+{showLogo && (
+  <Link href="/" aria-label="Home" className="logo-img">
+    <img src="/mylogo.png" alt="JRE" style={{ height: "44px", width: "auto" }} />
+  </Link>
+)}
 
-      <a href="https://wa.me/2349055020483" target="_blank" rel="noopener noreferrer" className="talk-btn">
+      <a href="https://wa.me/2348055934852" target="_blank" rel="noopener noreferrer" className="talk-btn">
   Let&apos;s Talk
 </a>
 
