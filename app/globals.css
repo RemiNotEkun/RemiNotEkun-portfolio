@@ -608,7 +608,6 @@ body.light .bottom-nav {
   .work-item { padding: 40px 0; }
   .work-item-footer { flex-direction: column; align-items: flex-start; }
   .archive-grid { grid-template-columns: 1fr; }
-  .country, .clock { display: none; }
   .bottom-nav { gap: 2px; padding: 5px 6px; }
   .bottom-nav a { padding: 8px 12px; font-size: 12px; }
 }
