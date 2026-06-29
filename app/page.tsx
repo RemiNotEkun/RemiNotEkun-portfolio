@@ -6,21 +6,30 @@ export default function Home() {
       <Navbar showLogo />
 
       <main className="hero">
-        <div className="dot" />
+        <div className="hero-left">
+          <p className="hero-eyebrow">Frontend Developer &amp; UI/UX Designer</p>
 
-        <h1>
-          FRONTEND
-          <br />
-          PRODUCT
-          <br />
-          DESIGNER
-        </h1>
+          <h1 className="hero-headline">
+            Joseph<br />
+            <em>Emmanuel</em>
+          </h1>
 
-        <p>
-          MY NAME IS JOSEPH, I&apos;M A VISUALLY-DRIVEN FRONTEND
-          DEVELOPER CRAFTING EXPERIENCES THAT DELIGHT USERS
-          AND SHAPE THE FUTURE OF DIGITAL PRODUCTS.
-        </p>
+          <p className="hero-bio">
+            Visually-driven builder crafting experiences that delight users
+            and shape the future of digital products — from Abuja, for the world.
+          </p>
+        </div>
+
+        <div className="hero-right">
+          <div className="hero-photo-wrap">
+            <img
+              src="/joseph.jpg"
+              alt="Joseph Emmanuel"
+              className="hero-photo"
+            />
+            <span className="hero-photo-tag">Available for work</span>
+          </div>
+        </div>
       </main>
     </>
   );

@@ -42,7 +42,7 @@ export default function WorkPage() {
                   rel="noopener noreferrer"
                   className="work-view-link"
                 >
-                  View Project
+                  View Projects
                   <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
                     <path d="M7 17L17 7M17 7H7M17 7V17" />
                   </svg>
